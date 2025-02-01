@@ -1,6 +1,6 @@
 "use client";
 
-import { esgData } from "@/lib/data"; 
+import { esgData } from "@/lib/data";
 import { HoverEffect } from "./ui/card-hover-effect";
 import { useEffect, useState } from "react";
 import { usePathname } from "next/navigation";
@@ -26,12 +26,16 @@ export default function Cross() {
   }, [pathname]);
 
   const activeChildCategory = esgData?.[1]?.subcategories?.[0];
-  const [activeSubCategory, setActiveSubCategory] = useState<string | null>(null);
+  const [activeSubCategory] = useState<string | null>(
+    null,
+  );
 
   return (
     <div className="max-w-7xl mx-auto pt-16 pb-12 space-y-16" id="CROSS">
       {activeChildCategory ? (
-        <div className={`p-8 rounded-lg shadow-xl ${activeChildCategory.color} transition-transform duration-300`}>
+        <div
+          className={`p-8 rounded-lg shadow-xl ${activeChildCategory.color} transition-transform duration-300`}
+        >
           <LinkPreview
             componentPreview={<DirectiveCSDDD />}
             className="z-50"
@@ -61,10 +65,13 @@ export default function Cross() {
             </div>
             <div className="flex-1 text-left space-y-4">
               <p className="text-xl font-light leading-relaxed">
-                Climate change isn’t just a buzzword—it’s reshaping the business landscape. Companies must adapt to an evolving environment and rethink their strategies.
+                Climate change isn’t just a buzzword—it’s reshaping the business
+                landscape. Companies must adapt to an evolving environment and
+                rethink their strategies.
               </p>
               <p className="text-lg font-normal leading-relaxed">
-                This summary provides a quick insight into the major challenges and opportunities emerging from today's climate shifts.
+                This summary provides a quick insight into the major challenges
+                and opportunities emerging from today&apos;s climate shifts.
               </p>
             </div>
           </div>
@@ -105,7 +112,9 @@ export default function Cross() {
           {/* Additional straightforward content block */}
           <div className="mt-8 text-center">
             <p className="text-xl font-light leading-relaxed">
-              The trailblazers are not just adapting—they’re innovating. With smart strategies and bold actions, forward-thinking companies are turning climate challenges into opportunities for growth.
+              The trailblazers are not just adapting—they’re innovating. With
+              smart strategies and bold actions, forward-thinking companies are
+              turning climate challenges into opportunities for growth.
             </p>
           </div>
         </div>

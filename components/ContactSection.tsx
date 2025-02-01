@@ -4,7 +4,6 @@ import { useState } from "react";
 import { Mail, Phone, MapPin } from "lucide-react";
 import { useToast } from "@/components/ui/use-toast";
 
-
 export default function ContactSection() {
   const { toast } = useToast();
   const [formData, setFormData] = useState({

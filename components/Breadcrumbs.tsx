@@ -8,9 +8,6 @@ import Link from "next/link";
 import { breadcrumbVariants } from "@/lib/animations";
 import { ChevronRight, Home } from "lucide-react";
 
-
-
-
 const Breadcrumbs = () => {
   const pathname = usePathname(); // Using usePathname hook
   const [isMounted, setIsMounted] = useState(false);
@@ -69,12 +66,11 @@ const Breadcrumbs = () => {
                   <Link
                     href={path}
                     passHref
-                    
                     className={cn(
                       "px-3 py-1.5 rounded-lg transition-colors text-sm font-medium",
                       isLast
                         ? "text-red-600 bg-red-50 hover:bg-red-100"
-                        : "text-gray-600 hover:bg-gray-100"
+                        : "text-gray-600 hover:bg-gray-100",
                     )}
                   >
                     {segment.replace(/-/g, " ")}

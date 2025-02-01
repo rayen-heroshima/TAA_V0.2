@@ -10,21 +10,21 @@ import {
 import { usePathname } from "next/navigation";
 
 const PrinciplesPage = () => {
-   const pathname = usePathname();
-  
-    useEffect(() => {
-      const scrollToNewSection = () => {
-        const newSection = document.getElementById("Global");
-        if (newSection) {
-          newSection.scrollIntoView({ behavior: "smooth", block: "start" });
-        }
-      };
-      const timeoutId = setTimeout(scrollToNewSection, 100);
-  
-      return () => {
-        clearTimeout(timeoutId);
-      };
-    }, [pathname]);
+  const pathname = usePathname();
+
+  useEffect(() => {
+    const scrollToNewSection = () => {
+      const newSection = document.getElementById("Global");
+      if (newSection) {
+        newSection.scrollIntoView({ behavior: "smooth", block: "start" });
+      }
+    };
+    const timeoutId = setTimeout(scrollToNewSection, 100);
+
+    return () => {
+      clearTimeout(timeoutId);
+    };
+  }, [pathname]);
   const principles = [
     {
       number: 1,

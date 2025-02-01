@@ -20,9 +20,9 @@ const Divulgations_generales = () => {
 
   return (
     <div className="max-w-7xl mx-auto py-16 px-4">
-       <h1 className="text-3xl font-bold text-gray-900 mb-4">
-            ESRS 2 - Divulgations générales
-          </h1>
+      <h1 className="text-3xl font-bold text-gray-900 mb-4">
+        ESRS 2 - Divulgations générales
+      </h1>
       <div
         id="DG"
         className="bg-white rounded-2xl shadow-lg p-8 flex flex-col md:flex-row items-center space-y-6 md:space-y-0 md:space-x-8"
@@ -40,9 +40,9 @@ const Divulgations_generales = () => {
 
         {/* Text Section */}
         <div className="flex-1 text-center md:text-left">
-         
           <p className="text-gray-700 leading-relaxed">
-            ESRS 2 spécifie les informations essentielles à divulguer, quelle que soit la question de durabilité examinée.
+            ESRS 2 spécifie les informations essentielles à divulguer, quelle
+            que soit la question de durabilité examinée.
           </p>
         </div>
       </div>

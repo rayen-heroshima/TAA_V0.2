@@ -1,8 +1,3 @@
-
 export default function Enviromental() {
-  return (
-    <div>
-     environnement
-    </div>
-  )
+  return <div>environnement</div>;
 }

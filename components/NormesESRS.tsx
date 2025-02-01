@@ -25,12 +25,17 @@ export default function NormesESRS() {
   }, [pathname]);
 
   const activeParentCategory = esgData[1];
-  
-  const [activeSubCategory, setActiveSubCategory] = useState<string | null>(null);
+
+  const [activeSubCategory] = useState<string | null>(
+    null,
+  );
 
   return (
     <div className="flex flex-col items-center justify-center px-6 md:px-10 py-8 bg-white transition-all duration-500 ease-in-out">
-      <h2 className="text-3xl font-semibold text-gray-800 mb-8 text-center transition-transform transform hover:scale-105" id="ESRS">
+      <h2
+        className="text-3xl font-semibold text-gray-800 mb-8 text-center transition-transform transform hover:scale-105"
+        id="ESRS"
+      >
         Normes européennes de reporting ESG
       </h2>
 
@@ -49,11 +54,13 @@ export default function NormesESRS() {
         {/* Text Section */}
         <div className="flex-grow w-full text-center lg:text-left space-y-6">
           <h2 className="text-4xl font-bold text-gray-800 mb-4">
-            <TextGenerateEffect words={"European Sustainability Reporting Standards"} />
+            <TextGenerateEffect
+              words={"European Sustainability Reporting Standards"}
+            />
           </h2>
           <h1 className="text-xl font-semibold text-red-600 mb-4 transform hover:scale-105 transition-all duration-300">
-  ESRS
-</h1>
+            ESRS
+          </h1>
 
           <p className="text-gray-700 leading-relaxed transition-all duration-300 hover:text-gray-800">
             Depuis janvier 2024, les normes européennes de reporting sur le
@@ -69,9 +76,9 @@ export default function NormesESRS() {
           </p>
           <p className="text-gray-700 leading-relaxed transition-all duration-300 hover:text-gray-800">
             De nouvelles normes européennes pour plus de durabilité
-            environnementale. Alors qu&apos;aujourd&apos;hui, en Europe, seules les
-            sociétés de plus de 500 salariés sont tenues de présenter un rapport
-            extra-financier, le scope des entreprises soumises à cette
+            environnementale. Alors qu&apos;aujourd&apos;hui, en Europe, seules
+            les sociétés de plus de 500 salariés sont tenues de présenter un
+            rapport extra-financier, le scope des entreprises soumises à cette
             obligation va s’élargir dès 2024. Poussée par l’urgence climatique
             et motivée par la volonté de flécher les flux financiers vers des
             activités plus durables, la Commission européenne a en effet adopté

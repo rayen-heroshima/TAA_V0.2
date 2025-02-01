@@ -32,10 +32,9 @@ export default function RootLayout({
       >
         <Hero />
         {children}
-        
-       
-      <ContactSection />
-      <Footer />
+
+        <ContactSection />
+        <Footer />
       </body>
     </html>
   );

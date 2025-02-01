@@ -1,8 +1,7 @@
 "use client";
-import  { useState } from "react";
+import { useState } from "react";
 import { ChevronDown, Leaf, Users, Building2 } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
-
 
 import { useEffect } from "react";
 import { usePathname } from "next/navigation";
@@ -26,16 +25,13 @@ const CriteriaSection: React.FC<CriteriaSectionProps> = ({
   const pathname = usePathname(); // Detect route change
 
   useEffect(() => {
-    
     const scrollToNewSection = () => {
-      const newSection = document.getElementById("exp1-section1"); 
+      const newSection = document.getElementById("exp1-section1");
       if (newSection) {
-        
         newSection.scrollIntoView({ behavior: "smooth", block: "end" });
       }
     };
 
-    
     const timeoutId = setTimeout(scrollToNewSection, 100);
 
     return () => {
@@ -43,14 +39,16 @@ const CriteriaSection: React.FC<CriteriaSectionProps> = ({
     };
   }, [pathname]);
   return (
-    <div className="flex-1 rounded-lg"  >
+    <div className="flex-1 rounded-lg">
       <button
         onClick={onToggle}
         className={`w-full p-4 flex items-center justify-between ${color} text-white transition-all duration-300 hover:opacity-90`}
       >
-        <div className="flex items-center gap-3 rounded-lg" >
+        <div className="flex items-center gap-3 rounded-lg">
           {icon}
-          <h3 className="text-xl font-semibold " id="exp1-section1">{title}</h3>
+          <h3 className="text-xl font-semibold " id="exp1-section1">
+            {title}
+          </h3>
         </div>
         <ChevronDown
           className={`transform transition-transform duration-300 ${isOpen ? "rotate-180" : ""}`}
@@ -96,9 +94,18 @@ const CrietresESG: React.FC = () => {
       title: "Environmental (E)",
       icon: <Leaf size={24} />,
       items: [
-        { code: "E1", text: "Le bilan climatique : Emission de CO2, Bilan carbone, Empreinte carbone" },
-        { code: "E2", text: "L'efficacité énergétique : Consommation énergétique" },
-        { code: "E3", text: "La pollution : L'utilisation/la pollution de l'eau, La gestion des déchets" },
+        {
+          code: "E1",
+          text: "Le bilan climatique : Emission de CO2, Bilan carbone, Empreinte carbone",
+        },
+        {
+          code: "E2",
+          text: "L'efficacité énergétique : Consommation énergétique",
+        },
+        {
+          code: "E3",
+          text: "La pollution : L'utilisation/la pollution de l'eau, La gestion des déchets",
+        },
         { code: "E4", text: "Economie circulaire" },
         { code: "E5", text: "Impact sur la biodiversité, Reforestation" },
       ],
@@ -109,13 +116,28 @@ const CrietresESG: React.FC = () => {
       title: "Social (S)",
       icon: <Users size={24} />,
       items: [
-        { code: "S1", text: "Condition de travail : Santé et sécurité au travail" },
+        {
+          code: "S1",
+          text: "Condition de travail : Santé et sécurité au travail",
+        },
         { code: "S2", text: "Condition de travail : Égalité des salaires" },
         { code: "S3", text: "Condition de travail : Formation des employés" },
-        { code: "S4", text: "Condition de travail : Respect des normes règlementaires en matière de travail" },
-        { code: "S5", text: "Diversité et inclusion : Intégration de la femme, Intégration des personnes à mobilité réduite et en situation d'handicape, Intégration des jeunes" },
-        { code: "S6", text: "Engagement communautaire et engagement sur les communautés locales, Programmes de bénévolat" },
-        { code: "S7", text: "Dialogue sociale : Relation avec les syndicats et représentants du personnel" },
+        {
+          code: "S4",
+          text: "Condition de travail : Respect des normes règlementaires en matière de travail",
+        },
+        {
+          code: "S5",
+          text: "Diversité et inclusion : Intégration de la femme, Intégration des personnes à mobilité réduite et en situation d'handicape, Intégration des jeunes",
+        },
+        {
+          code: "S6",
+          text: "Engagement communautaire et engagement sur les communautés locales, Programmes de bénévolat",
+        },
+        {
+          code: "S7",
+          text: "Dialogue sociale : Relation avec les syndicats et représentants du personnel",
+        },
       ],
       color: "bg-[#3b82f6]",
     },
@@ -124,12 +146,27 @@ const CrietresESG: React.FC = () => {
       title: "Governance (G)",
       icon: <Building2 size={24} />,
       items: [
-        { code: "G1", text: "La vision, la stratégie et la gouvernance de la démarche de RSE" },
-        { code: "G2", text: "Démarche éthique, Politique anti-corruption et éthique des affaires, Devoir de diligence, Lutte contre la corruption" },
+        {
+          code: "G1",
+          text: "La vision, la stratégie et la gouvernance de la démarche de RSE",
+        },
+        {
+          code: "G2",
+          text: "Démarche éthique, Politique anti-corruption et éthique des affaires, Devoir de diligence, Lutte contre la corruption",
+        },
         { code: "G3", text: "Relation avec les clients et les consommateurs" },
-        { code: "G4", text: "Transparence : Rémunération des dirigeants Financière" },
-        { code: "G5", text: "Gouvernance : Indépendance du conseil d'administration" },
-        { code: "G6", text: "Féminisation de la direction, Droits des actionnaires" },
+        {
+          code: "G4",
+          text: "Transparence : Rémunération des dirigeants Financière",
+        },
+        {
+          code: "G5",
+          text: "Gouvernance : Indépendance du conseil d'administration",
+        },
+        {
+          code: "G6",
+          text: "Féminisation de la direction, Droits des actionnaires",
+        },
       ],
       color: "bg-[#ef4444]",
     },
@@ -147,16 +184,27 @@ const CrietresESG: React.FC = () => {
 
       {/* Added Paragraph */}
       <motion.p
-  initial={{ opacity: 0, y: -20 }}
-  animate={{ opacity: 1, y: 0 }}
-  transition={{ delay: 0.3 }}
-  className="text-lg text-gray-700 mb-8 "
->
-  Les critères ESG (Environnementaux, Sociaux et de Gouvernance) présentés ont été définis en fonction des préoccupations les plus pertinentes dans le secteur automobile. Ce choix a été réalisé afin de garantir une approche adaptée aux enjeux spécifiques de l’industrie automobile. Ces critères ont été élaborés lors d’ateliers de travail réunissant des représentants d’entreprises du secteur, permettant ainsi d’assurer leur pertinence et leur alignement avec les pratiques et attentes du secteur. Cette démarche collaborative renforce la crédibilité et l’applicabilité des critères ESG dans le cadre des stratégies de durabilité des entreprises automobiles.
-  <br />
-  Ces critères s’inscrivent en parfaite synergie avec les cadres réglementaires et normatifs internationaux tels que la CSRD, la CS3D, les ODD et la norme ISO 26000, consolidant ainsi leur valeur stratégique et leur impact durable.
-</motion.p>
-
+        initial={{ opacity: 0, y: -20 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ delay: 0.3 }}
+        className="text-lg text-gray-700 mb-8 "
+      >
+        Les critères ESG (Environnementaux, Sociaux et de Gouvernance) présentés
+        ont été définis en fonction des préoccupations les plus pertinentes dans
+        le secteur automobile. Ce choix a été réalisé afin de garantir une
+        approche adaptée aux enjeux spécifiques de l’industrie automobile. Ces
+        critères ont été élaborés lors d’ateliers de travail réunissant des
+        représentants d’entreprises du secteur, permettant ainsi d’assurer leur
+        pertinence et leur alignement avec les pratiques et attentes du secteur.
+        Cette démarche collaborative renforce la crédibilité et l’applicabilité
+        des critères ESG dans le cadre des stratégies de durabilité des
+        entreprises automobiles.
+        <br />
+        Ces critères s’inscrivent en parfaite synergie avec les cadres
+        réglementaires et normatifs internationaux tels que la CSRD, la CS3D,
+        les ODD et la norme ISO 26000, consolidant ainsi leur valeur stratégique
+        et leur impact durable.
+      </motion.p>
 
       <div className="flex flex-wrap gap-6 justify-center">
         {sections.map(({ key, title, icon, items, color }) => (

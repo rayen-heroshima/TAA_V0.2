@@ -1,8 +1,3 @@
-
 export default function Normes() {
-  return (
-    <div >
-      
-    </div>
-  );
+  return <div></div>;
 }

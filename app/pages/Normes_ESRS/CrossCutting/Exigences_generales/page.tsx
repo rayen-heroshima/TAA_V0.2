@@ -86,8 +86,8 @@ const Exigences_generales = () => {
           <p className="text-lg leading-relaxed font-light">
             ESRS 1 est bien plus qu’un cadre technique—c’est un engagement
             envers l’intégrité et la clarté. En adoptant ces principes, les
-            entreprises ne se contentent pas de suivre les règles ; elles montrent
-            la voie vers un avenir durable et responsable.
+            entreprises ne se contentent pas de suivre les règles ; elles
+            montrent la voie vers un avenir durable et responsable.
           </p>
         </div>
       </div>

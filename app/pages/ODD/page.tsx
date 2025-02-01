@@ -1,28 +1,25 @@
 "use client";
-import  { useEffect } from "react";
+import { useEffect } from "react";
 import { motion } from "framer-motion";
 import { usePathname } from "next/navigation";
 
 const ODDpage = () => {
   const pathname = usePathname(); // Detect route change
-  
-    useEffect(() => {
-      
-      const scrollToNewSection = () => {
-        const newSection = document.getElementById("ODD"); 
-        if (newSection) {
-          
-          newSection.scrollIntoView({ behavior: "smooth", block: "start" });
-        }
-      };
-  
-      
-      const timeoutId = setTimeout(scrollToNewSection, 100);
-  
-      return () => {
-        clearTimeout(timeoutId);
-      };
-    }, [pathname]);
+
+  useEffect(() => {
+    const scrollToNewSection = () => {
+      const newSection = document.getElementById("ODD");
+      if (newSection) {
+        newSection.scrollIntoView({ behavior: "smooth", block: "start" });
+      }
+    };
+
+    const timeoutId = setTimeout(scrollToNewSection, 100);
+
+    return () => {
+      clearTimeout(timeoutId);
+    };
+  }, [pathname]);
   const oddList = [
     {
       number: 1,
@@ -163,7 +160,7 @@ const ODDpage = () => {
       <header className="bg-gradient-to-r from-red-600 to-red-800 text-white py-16 px-4">
         <div className="container mx-auto max-w-7xl">
           <h1 className="text-5xl font-bold mb-4">Agenda 2030</h1>
-          <p className="text-xl opacity-80" >
+          <p className="text-xl opacity-80">
             17 Objectifs pour transformer notre monde
           </p>
         </div>

@@ -27,7 +27,7 @@ export function HoverEffect({ category, isActive }: ESGCardProps) {
       <motion.div
         className={cn(
           "h-full w-full p-0 overflow-hidden relative cursor-pointer",
-          isActive ? "bg-red-50 rounded-3xl" : "border-transparent"
+          isActive ? "bg-red-50 rounded-3xl" : "border-transparent",
         )}
         onMouseEnter={() => setIsHovered(true)}
         onMouseLeave={() => setIsHovered(false)}
@@ -37,12 +37,15 @@ export function HoverEffect({ category, isActive }: ESGCardProps) {
             {isHovered && (
               <motion.span
                 className={cn(
-                  "absolute inset-0 h-full w-full bg-red-200 block rounded-3xl"
+                  "absolute inset-0 h-full w-full bg-red-200 block rounded-3xl",
                 )}
                 layoutId="hoverBackground"
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1, transition: { duration: 0.15 } }}
-                exit={{ opacity: 0, transition: { duration: 0.15, delay: 0.2 } }}
+                exit={{
+                  opacity: 0,
+                  transition: { duration: 0.15, delay: 0.2 },
+                }}
               />
             )}
           </AnimatePresence>
@@ -55,7 +58,7 @@ export function HoverEffect({ category, isActive }: ESGCardProps) {
                 <div
                   className={cn(
                     "transition-transform duration-300 transform-gpu",
-                    isActive ? "rotate-180" : ""
+                    isActive ? "rotate-180" : "",
                   )}
                   style={{ transformOrigin: "center", display: "inline-block" }}
                 >
@@ -80,7 +83,7 @@ export const Card = ({
   <div
     className={cn(
       "rounded-2xl h-full w-full p-0 overflow-hidden shadow-md bg-transparent border border-transparent dark:border-white/[0.2] relative",
-      className
+      className,
     )}
   >
     <div>
@@ -105,6 +108,4 @@ export const CardDescription = ({
 }: {
   className?: string;
   children: React.ReactNode;
-}) => (
-  <p className={cn("text-gray-600 mb-2", className)}>{children}</p>
-);
+}) => <p className={cn("text-gray-600 mb-2", className)}>{children}</p>;
