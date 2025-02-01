@@ -1,25 +1,29 @@
 "use client";
-import { useEffect } from "react";
+import  { useEffect } from "react";
 import { motion } from "framer-motion";
 import { usePathname } from "next/navigation";
+import Image from "next/image";
 
 const ODDpage = () => {
   const pathname = usePathname(); // Detect route change
-
-  useEffect(() => {
-    const scrollToNewSection = () => {
-      const newSection = document.getElementById("ODD");
-      if (newSection) {
-        newSection.scrollIntoView({ behavior: "smooth", block: "start" });
-      }
-    };
-
-    const timeoutId = setTimeout(scrollToNewSection, 100);
-
-    return () => {
-      clearTimeout(timeoutId);
-    };
-  }, [pathname]);
+  
+    useEffect(() => {
+      
+      const scrollToNewSection = () => {
+        const newSection = document.getElementById("ODD"); 
+        if (newSection) {
+          
+          newSection.scrollIntoView({ behavior: "smooth", block: "start" });
+        }
+      };
+  
+      
+      const timeoutId = setTimeout(scrollToNewSection, 100);
+  
+      return () => {
+        clearTimeout(timeoutId);
+      };
+    }, [pathname]);
   const oddList = [
     {
       number: 1,
@@ -160,7 +164,7 @@ const ODDpage = () => {
       <header className="bg-gradient-to-r from-red-600 to-red-800 text-white py-16 px-4">
         <div className="container mx-auto max-w-7xl">
           <h1 className="text-5xl font-bold mb-4">Agenda 2030</h1>
-          <p className="text-xl opacity-80">
+          <p className="text-xl opacity-80" >
             17 Objectifs pour transformer notre monde
           </p>
         </div>
@@ -177,9 +181,11 @@ const ODDpage = () => {
             className="w-full flex flex-col md:flex-row items-center bg-white shadow-lg mb-4"
           >
             <div className="w-full md:w-1/3 p-8 flex justify-center items-center">
-              <img
+            <Image
                 src={odd.photo}
                 alt={odd.title}
+                width={256}
+                height={256}
                 className="max-h-64 object-contain transform hover:scale-110 transition-transform duration-300"
               />
             </div>
