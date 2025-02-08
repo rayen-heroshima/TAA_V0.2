@@ -24,11 +24,11 @@ interface ResultData {
 // Type for storing answers.
 // For each category (key), store an object mapping a global question index to the chosen score.
 type Answers = Record<string, Record<number, number>>;
-
+const grille_evaluation_typed = grille_evaluation as Record<string, Question[]>;
 const QUESTIONS_PER_PAGE = 5;
-const CATEGORIES: string[] = Object.keys(grille_evaluation);
+const CATEGORIES: string[] = Object.keys(grille_evaluation_typed);
 const totalPages = Math.ceil(
-  (grille_evaluation[CATEGORIES[0]] as Question[]).length / QUESTIONS_PER_PAGE
+  (grille_evaluation_typed[CATEGORIES[0]] as Question[]).length / QUESTIONS_PER_PAGE
 );
 
 const Questionnaire: React.FC = () => {
@@ -61,7 +61,7 @@ const Questionnaire: React.FC = () => {
     const categoryLevels: Record<string, string> = {};
 
     CATEGORIES.forEach((category) => {
-      const categoryQuestions = grille_evaluation[category] as Question[];
+      const categoryQuestions = grille_evaluation_typed[category] as Question[];
       const categoryAnswers = answers[category] || {};
 
       // Prepare a record for each level indicating whether all questions for that level were answered "Yes"
@@ -126,7 +126,7 @@ const Questionnaire: React.FC = () => {
             <h2 className="text-xl font-semibold text-red-500 mb-3">
               {category}
             </h2>
-            {(grille_evaluation[category] as Question[])
+            {(grille_evaluation_typed[category] as Question[])
               .slice(page * QUESTIONS_PER_PAGE, (page + 1) * QUESTIONS_PER_PAGE)
               .map((q: Question, localIndex: number) => {
                 const globalIndex = page * QUESTIONS_PER_PAGE + localIndex;
