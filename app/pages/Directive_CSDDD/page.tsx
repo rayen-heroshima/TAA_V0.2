@@ -1,3 +1,15 @@
-export default function Normes() {
-  return <div></div>;
+import DirectiveCSDDD from "@/components/DirectiveCSDDD";
+export default function Directive_CSDDDLayout({
+  children,
+}: {
+  children: React.ReactNode;
+}) {
+  
+  return (
+    <div>
+      <DirectiveCSDDD />
+
+      {children}
+    </div>
+  );
 }

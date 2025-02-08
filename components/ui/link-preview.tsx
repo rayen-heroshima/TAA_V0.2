@@ -16,13 +16,12 @@ export const LinkPreview = ({
   url,
   children,
   className,
-  componentPreview, // The component to be displayed as preview
+  componentPreview,
 }: LinkPreviewProps) => {
   const [isOpen, setOpen] = React.useState(false);
   const [hoverEffect, setHoverEffect] = React.useState(false);
 
   const handleMouseEnter = () => setHoverEffect(true);
-  //const handleMouseLeave = () => setHoverEffect(false);
 
   return (
     <HoverCardPrimitive.Root
@@ -32,44 +31,33 @@ export const LinkPreview = ({
     >
       <HoverCardPrimitive.Trigger
         onMouseEnter={handleMouseEnter}
-        //onMouseLeave={handleMouseLeave}
         className={cn("text-black dark:text-white", className)}
       >
         {children}
       </HoverCardPrimitive.Trigger>
 
-      <HoverCardPrimitive.Content
-        align="center"
-        sideOffset={5} // Adjust the offset to bring the card closer to the trigger
-        className="relative"
-      >
+      <HoverCardPrimitive.Content align="center" sideOffset={5} className="relative">
         <AnimatePresence>
           {isOpen && hoverEffect && (
             <motion.div
-              initial={{ opacity: 0, y: -20, scale: 0.6 }} // Start off slightly above the trigger
+              initial={{ opacity: 0, y: -20, scale: 0.6 }}
               animate={{
                 opacity: 1,
-                y: -20, // Set final Y position to appear just above the trigger
+                y: -20,
                 scale: 1,
-                transition: {
-                  type: "spring",
-                  stiffness: 260,
-                  damping: 20,
-                },
+                transition: { type: "spring", stiffness: 260, damping: 20 },
               }}
               exit={{ opacity: 0, y: 20, scale: 0.6 }}
               className="shadow-2xl rounded-2xl"
+              style={{ zIndex: 9999 }} // Ensures the preview is on top
             >
               <div
-                className="block p-4 bg-white border-2 border-transparent rounded-2xl shadow-xl z-50"
-                style={{ fontSize: 10 }}
+                className="p-4 bg-white border-2 border-transparent rounded-2xl shadow-xl overflow-auto max-h-[80vh]"
               >
-                {/* Render the component passed as preview */}
-                <div className="rounded-lg overflow-hidden w-[999px] h-[600px]">
+                <div className="rounded-lg overflow-hidden w-full">
                   <Link
                     href={url}
                     className="block p-1 bg-white border-2 border-transparent shadow rounded-xl hover:border-neutral-200 dark:hover:border-neutral-800"
-                    style={{ fontSize: 0 }}
                   >
                     {componentPreview}
                   </Link>

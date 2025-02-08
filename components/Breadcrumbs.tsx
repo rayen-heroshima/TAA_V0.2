@@ -23,7 +23,7 @@ const Breadcrumbs = () => {
   const pathnames = pathname.split("/").filter(Boolean);
 
   return (
-    <nav className="fixed top-0 left-0 right-0 z-10 bg-white/80 backdrop-blur-sm border-b border-gray-200">
+    <nav className="fixed top-0 left-0 right-0 z-30 bg-white/80 backdrop-blur-sm border-b border-gray-200">
       <div className="max-w-7xl mx-auto px-4">
         {/* Navbar Flex Container */}
         <div className="flex items-center justify-between h-16">

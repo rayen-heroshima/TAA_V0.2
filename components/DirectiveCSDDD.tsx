@@ -89,7 +89,7 @@ export default function DirectiveCSDDD() {
         <LinkPreview
           componentPreview={<NormesESRS />}
           className="z-50"
-          url={"/pages/Normes_ESRS"}
+          url={"/Normes_ESRS"}
         >
           <h1 className="inline-block text-red-600 font-bold px-4 py-2 mb-6">
             Norme ESRS

@@ -1,0 +1,893 @@
+{
+    "Gouvernance": [
+        {
+            "question": "La politique RSE a été établie sur la base d’une analyse pertinente et sur la base d’un référentiel RSE exemples :\nExistence d’une feuille de route qui traduit les engagements RSE \nExistence d’une politique d’entreprise qui intègre les valeurs de développement durable ",
+            "score": 5.0,
+            "niveaux": "N1"
+        },
+        {
+            "question": "L’engagement du leadership est démontré à travers des codes de conduite, une politique d’entreprise, vision stratégique qui intègre les valeurs RSE et ou préserve la durabilité de l’entreprise ",
+            "score": 5.0,
+            "niveaux": "N1"
+        },
+        {
+            "question": "Existence d’un code éthique et ou charte qui traduisent l’engagement de l’entreprise en matière de RSE",
+            "score": 5.0,
+            "niveaux": "N2"
+        },
+        {
+            "question": "Des outils et supports de communication sont mis en place et déployés à des fins de sensibilisation du personnel quant à l’importance de la RSE et l’engagement de l’entreprise dans ce sens. Exemples : affiches, vidéos, organisation de séances de formation, focus groupe…",
+            "score": 5.0,
+            "niveaux": "N2"
+        },
+        {
+            "question": "Les enjeux de l’entreprise en matière de RSE sont bien identifiés et analysés, exemples : matrice de matérialité disponible ",
+            "score": 5.0,
+            "niveaux": "N3"
+        },
+        {
+            "question": "L’entreprise implique ses parties prenantes internes et externes dans sa stratégie à moyen et long terme exemple : charte et ou codes éthiques communiqués et signés par les parties prenantes, des indicateurs de durabilité sont fixés pour les managers et ou départements ",
+            "score": 5.0,
+            "niveaux": "N3"
+        },
+        {
+            "question": "Un dispositif d’évaluation de la politique RSE est en place, exemple : audit interne par les responsables, chargé RSE ",
+            "score": 5.0,
+            "niveaux": "N3"
+        },
+        {
+            "question": "Le modèle d’affaire est établi dans le respect des exigences du développement durable ",
+            "score": 5.0,
+            "niveaux": "N4"
+        },
+        {
+            "question": "Processus de prise de décision pertinent et implique toutes les parties prenantes exemples : existence d’outil de concertation avec les parties prenantes ",
+            "score": 5.0,
+            "niveaux": "N4"
+        },
+        {
+            "question": "Déploiement des normes de développement durable dans tous les processus de l’entreprise ",
+            "score": 5.0,
+            "niveaux": "N4"
+        },
+        {
+            "question": "Les pratiques de l’entreprise sont conformes à la réglementation et législation en vigueur ",
+            "score": 5.0,
+            "niveaux": "N1"
+        },
+        {
+            "question": "L’entreprise met en place un dispositif pour s’assurer des pratiques éthiques par ses salariés, exemples engagements signés par les parties concernées, contrôle continu …",
+            "score": 5.0,
+            "niveaux": "N1"
+        },
+        {
+            "question": "L’entreprise formalise son engagement éthique et le communique à toutes ses parties prenantes, exemple : les principes d’éthique des affaires et de lutte contre la corruption sont intégrés dans la politique interne, existence d’un code ou charte éthique qui aborde les principes de lutte contre la corruption et l’éthique des affaires, existence de politique de lutte contre la corruption et de l’éthique des affaires ",
+            "score": 5.0,
+            "niveaux": "N2"
+        },
+        {
+            "question": "L’entreprise met en place un dispositif de communication et de sensibilisation sur l’éthique des affaires et la lutte contre la corruption  ",
+            "score": 5.0,
+            "niveaux": "N2"
+        },
+        {
+            "question": "Des programmes de lutte contre la corruption, destinés à toutes les parties prenantes sont en place exemples : formation des salariés, séances d’information et de sensibilisation par des experts, mise en place d’un système d’alerte, enquêtes internes et externes…",
+            "score": 5.0,
+            "niveaux": "N3"
+        },
+        {
+            "question": "Des audits internes sont fréquemment effectués afin de s'assurer de la conformité des pratiques en matière d'éthique des affaires.",
+            "score": 5.0,
+            "niveaux": "N3"
+        },
+        {
+            "question": "L’intégralité du processus de diligence est en place et est maîtrisé avec :                                                                        La cartographie des risques élaborée\nDes évaluations régulières des situations des filiales, sous-traitant et fournisseurs sont en place et contrôlées \nUn système d’évaluation indépendant est en place (audit externe) \nUn reporting est en place et est communiqué",
+            "score": 10.0,
+            "niveaux": "N4  "
+        },
+        {
+            "question": "L'entreprise respecte son engagement contractuel vis-à-vis de ses clients /consommateurs et ce dans le respect de la réglementation en faveur de leurs droits exemples : conformité des consignes de santé de sécurité des clients : consommateurs, conformité des produits commercialisés, vendus ",
+            "score": 5.0,
+            "niveaux": "N1"
+        },
+        {
+            "question": "L’entreprise intègre les principes de protection des clients ou consommateurs dans son code et ou charte éthique tout en insistant sur sa responsabilité vis-à-vis de ces derniers et ce dans le cadre de leur relation contractuelle",
+            "score": 5.0,
+            "niveaux": "N1"
+        },
+        {
+            "question": "L’entreprise se veut être une entreprise responsable en bannissant toute le publicité mensongère et greenwashing",
+            "score": 5.0,
+            "niveaux": "N1"
+        },
+        {
+            "question": "L’entreprise se montre à l’écoute de ses clients et consommateurs avec la mise en place d’un dispositif d’écoute client exemple : enquête de satisfaction  ",
+            "score": 5.0,
+            "niveaux": "N2"
+        },
+        {
+            "question": "L’entreprise élabore un plan d’action en réponse aux réclamations, propositions des clients ",
+            "score": 5.0,
+            "niveaux": "N2"
+        },
+        {
+            "question": "L’entreprise respecte les délais annoncés dans le traitement des réclamations et ou litiges avec les clients consommateurs ",
+            "score": 5.0,
+            "niveaux": "N2"
+        },
+        {
+            "question": "L’entreprise met en place un système de veille lui permettant de proposer les solutions les mieux à même de satisfaire aux besoins de ses clients au niveau social et environnemental pour renforcer ainsi leur responsabilité en matière de durabilité exemple : partage de bonne pratiques RSE , proposition de fournisseur « RSE » particulièrement s'il font partie de leur territoires  accompagnement dans l’adaptation de processus durable…",
+            "score": 10.0,
+            "niveaux": "N3"
+        },
+        {
+            "question": "L’entreprise encourage des clients et consommateurs à adopter une consommation responsable exemple : campagne de communication et de sensibilisation ayant pour objectif la lutte contre l’obsolescence programmée, sur les bénéficies de la réutilisation et le réemploi …",
+            "score": 5.0,
+            "niveaux": "N3"
+        },
+        {
+            "question": "L'entreprise investit dans des processus innovants afin de renforcer le dispositif de protection des consommateurs contre les risques pour leur santé et leur sécurité lors de l'utilisation du produit commercialisé.",
+            "score": 5.0,
+            "niveaux": "N4"
+        },
+        {
+            "question": "L'entreprise encourage ses client consommateurs à la consommation responsable en investissant dans :\nDes actions de sensibilisation sur les bénéfices de la réutilisation ou réemploi  \nDes actions de lutte contre l’obsolescence programmée \nAcquisition de dispositif de collecte des produits usagés ",
+            "score": 10.0,
+            "niveaux": "N4"
+        },
+        {
+            "question": "Les données financières relatives à la rémunération sont disponibles et ce pour tous les salariés de l’entreprise y compris les dirigeants ",
+            "score": 5.0,
+            "niveaux": "N1"
+        },
+        {
+            "question": "L'entreprise publie dans ses rapports annuels la rémunération et les avantages en toute nature des dirigeants / mandataires sociaux",
+            "score": 5.0,
+            "niveaux": "N2"
+        },
+        {
+            "question": "Les parties prenantes internes (représentants du personnel) contribue à l’élaboration ou ajustement de la politique salariale  ",
+            "score": 5.0,
+            "niveaux": "N2"
+        },
+        {
+            "question": "Les rapports annuels font état de la rémunération de tous les dirigeants et mandataires",
+            "score": 5.0,
+            "niveaux": "N3"
+        },
+        {
+            "question": "L’entreprise privilégie ou encourage l’investissement d’une partie de la rémunération des dirigeants (essentiellement les variables) dans des projets durables et ou d’ancrage territorial.",
+            "score": 10.0,
+            "niveaux": "N3"
+        },
+        {
+            "question": "Le reporting qui intègre la rémunération des dirigeants est vérifié par des tiers",
+            "score": 5.0,
+            "niveaux": "N4"
+        },
+        {
+            "question": "Les missions et activités des dirigeants tels que définis au sein du conseil ou comité de direction traduisent leur indépendance et ce dans le respect des exigences RSE",
+            "score": 5.0,
+            "niveaux": "N1"
+        },
+        {
+            "question": "Les membres du conseil d'administration ou comité de direction sont formés sur les principes de la RSE et s'engage à les adopter.",
+            "score": 5.0,
+            "niveaux": "N2"
+        },
+        {
+            "question": "Existence de protocole et ou charte traduisant le principe d'indépendance des membres du conseil d’administration ou de direction ",
+            "score": 5.0,
+            "niveaux": "N2"
+        },
+        {
+            "question": "Les membres du conseil d'administration démontrent leurs indépendances vis-à-vis des décisions stratégiques, les membres du comité de direction démontrent leur impartialité vis-à-vis des décisions stratégiques, des membres tiers indépendants ont un rôle et un pouvoir décisionnaire dans le conseil d'administration.     ",
+            "score": 5.0,
+            "niveaux": "N3"
+        },
+        {
+            "question": "Les décisions prises sont communiquées et partagées avec les parties prenantes internes et externes",
+            "score": 5.0,
+            "niveaux": "N3"
+        },
+        {
+            "question": "Des audits en internes sont fréquemment réalisés afin d'évaluer l'indépendance des membres du conseil d'administration et impartialité du comité de direction",
+            "score": 5.0,
+            "niveaux": "N3"
+        },
+        {
+            "question": "Un dispositif d'évaluation par des tiers , est mis en place afin d'évaluer l'indépendance des membres du conseil ainsi que les décisions prises dans le cadre de l’exercice de leur mission ",
+            "score": 5.0,
+            "niveaux": "N4"
+        },
+        {
+            "question": "Un dispositif d'alerte est mis en œuvre pour signaler toutes situations à risques ",
+            "score": 5.0,
+            "niveaux": "N4"
+        },
+        {
+            "question": "La féminisation du conseil ou comité d direction fait partie des objectifs stratégiques de l’entreprise et est intégrée à la feuille de route RH",
+            "score": 5.0,
+            "niveaux": "N1"
+        },
+        {
+            "question": "La charte et Protocoles de sélection des cadres de directions et des droits des actionnaires favorisent les nominations et promotions basés sur les compétences et traduisent le principe de l’égalité des chances ",
+            "score": 5.0,
+            "niveaux": "N1"
+        },
+        {
+            "question": "L’entreprise est à l’écoute des parties prenantes internes afin d'identifier les besoins et leviers qui permettent de favoriser la féminisation des postes de direction",
+            "score": 5.0,
+            "niveaux": "N2"
+        },
+        {
+            "question": "L'entreprise alloue les moyens nécessaires afin de développer les compétences des femmes dans une optique d'évolution de carrière et d'intégration dans les postes à responsabilité",
+            "score": 5.0,
+            "niveaux": "N2"
+        },
+        {
+            "question": "L’entreprise mesure la satisfaction des parties prenantes internes quant aux actions favorisant la féminisation des postes de management ",
+            "score": 5.0,
+            "niveaux": "N3"
+        },
+        {
+            "question": "La démarche de féminisation des postes de management est fréquemment revue et ajustée ",
+            "score": 5.0,
+            "niveaux": "N3"
+        },
+        {
+            "question": "L’entreprise investit dans des actions qui favorise la promotion de la femme dans les postes de responsabilité ",
+            "score": 5.0,
+            "niveaux": "N3"
+        },
+        {
+            "question": "L'entreprise s'accorde le droit d'ajuster les moyens et conditions de travail afin de favoriser l'intégration des femmes dans les postes à responsabilité",
+            "score": 5.0,
+            "niveaux": "N4"
+        },
+        {
+            "question": "Des plans de carrière pour les potentiels femmes sont mis en place afin de favoriser la féminisation de la direction",
+            "score": 5.0,
+            "niveaux": "N4"
+        }
+    ],
+    "Social": [
+        {
+            "question": "L’entreprise formalise toutes relations contractuelles avec ses salariés par un contrat de travail dûment établi : type de contrat, volume horaire, droit des parties, travail des enfants …",
+            "score": 5.0,
+            "niveaux": "N1"
+        },
+        {
+            "question": "L’entreprise dispose d’un bilan social lorsque son effectif est égal ou dépasse les 300 salariés, pour celle dont l’effectif est de moins de 300 salariés, elle dispose des données nécessaires relatives à chaque salarié et le tout est bien archivés",
+            "score": 5.0,
+            "niveaux": "N1"
+        },
+        {
+            "question": "Les déclarations sociales sont faites par l’entreprise à temps",
+            "score": 5.0,
+            "niveaux": "N1"
+        },
+        {
+            "question": "Existence de procédures de gestion administrative du personnel avec documentation et traçabilité de toutes les actions relatives à ces procédures ",
+            "score": 5.0,
+            "niveaux": "N2"
+        },
+        {
+            "question": "Le bilan social est en place, communiqué et suivi de plan d’action",
+            "score": 5.0,
+            "niveaux": "N2"
+        },
+        {
+            "question": "En cas de dysfonctionnement signalé en interne ou par un tiers et relatif au respect d'une norme en lien avec les droits de l\"homme et le respect de la règlementation , l'entreprise doit justifier des mesures entreprises à l'égard de ces dépassements involontaires",
+            "score": 5.0,
+            "niveaux": "N2"
+        },
+        {
+            "question": "Une enquête de satisfaction salariés est déployée afin de mesurer la satisfaction des salariés quantaux procédures de gestion administrative du personnel, les résultats de l’enquête donnent lieu à un plan d’action ",
+            "score": 5.0,
+            "niveaux": "N2"
+        },
+        {
+            "question": "Des audits internes sont fréquemment effectués afin de s’assurer de la conformité des pratiques liées à la gestion administrative du personnel et du respect des droits de l’homme, les résultats de ces audits donnent lieu à des plans d’action ",
+            "score": 5.0,
+            "niveaux": "N3"
+        },
+        {
+            "question": "L'entreprise engage des actions de sensibilisations pour ses parties prenantes internes et qui portent sur les risques liés au respect des droits de l'homme",
+            "score": 5.0,
+            "niveaux": "N3"
+        },
+        {
+            "question": "Un processus de diligence qui consacre le principe de respect des droits de l’homme est en place avec l’existence de :\nLa cartographie des risques liés aux droits de l’homme\nDes procédures d'évaluation régulière de la situation des filiales, et des sous-traitants ou fournisseurs pour contrôler leur respect des droits de l’homme et des conditions de travail \nActions de sensibilisation pour ses parties prenantes externes et qui portent sur les risques liés au respect des droits de l'homme.\nUn plan d’atténuation des risques lié aux droits de l'homme ou de prévention                                                  Un système d’évaluation et de suivi mis en place",
+            "score": 10.0,
+            "niveaux": "N4"
+        },
+        {
+            "question": "Existence d’un comité de santé et de sécurité au travail pour les entreprises de 40 salariés et plus, existence de procédure de sécurité de travail pour les entreprises de moins de 40 salariés ",
+            "score": 5.0,
+            "niveaux": "N1"
+        },
+        {
+            "question": "Les procédures de prévention des risques liés à la santé et la sécurité au travail sont bien maîtrisées ",
+            "score": 5.0,
+            "niveaux": "N1"
+        },
+        {
+            "question": "La certification 45001 en cours de mise en place",
+            "score": 5.0,
+            "niveaux": "N2"
+        },
+        {
+            "question": "Système de management de l’entreprise est en phase avec les exigences de l'ISO 9001",
+            "score": 5.0,
+            "niveaux": "N2"
+        },
+        {
+            "question": "Les salariés sont impliqués dans la gestion de la santé et sécurité au travail exemple :\nLes mécanismes de la consultation / participation des travailleurs est en place et initiés\nUn système d'alerte par tous les salariés quant aux risques liés à la santé et sécurité au travail est mis en place",
+            "score": 5.0,
+            "niveaux": "N2"
+        },
+        {
+            "question": "L’entreprise dispose d’un guide de bonnes pratiques qui intègre toutes les règles liées à la santé et la sécurité au travail. Ce même guide est communiqué à tous les salariés ",
+            "score": 5.0,
+            "niveaux": "N2"
+        },
+        {
+            "question": "Certification 45001 Obtenue  ",
+            "score": 5.0,
+            "niveaux": "N3"
+        },
+        {
+            "question": "Les pratiques en lien avec la santé et la sécurité sont constamment évaluées ",
+            "score": 5.0,
+            "niveaux": "N3"
+        },
+        {
+            "question": "Les Risques psychosociaux figurent dans la cartographie des risques de l'entreprise",
+            "score": 5.0,
+            "niveaux": "N3"
+        },
+        {
+            "question": "Toutes les parties prenantes internes sont impliquées dans les plans de prévention des risques sur la santé et sécurité au travail exemple les managers sont formés sur le rôle en matière de santé et de sécurité au travail et ont des objectifs dessus, la matrice des compétences intègre celles en lien avec la santé et la sécurité au travail ",
+            "score": 5.0,
+            "niveaux": "N3"
+        },
+        {
+            "question": "Existence de Label portant sur les normes de santé et sécurité au travail ",
+            "score": 5.0,
+            "niveaux": "N4"
+        },
+        {
+            "question": "Prise en compte de tous les indicateurs de la santé et sécurité au travail y comrpis les RPS dans le rapport annuel",
+            "score": 5.0,
+            "niveaux": "N4"
+        },
+        {
+            "question": "Toutes les parties prenantes internes et externes sont impliquées dans les plans de prévention des risques sur la santé et sécurité au travail exemples : convention avec des organismes de santé ou de sécurité au travail ",
+            "score": 10.0,
+            "niveaux": "N4"
+        },
+        {
+            "question": "Des plans d'action Qualité de Vie et Condition de Travail sont définis déployés et pilotés",
+            "score": 5.0,
+            "niveaux": "N4"
+        },
+        {
+            "question": "L’entreprise respecte la grille conventionnelle telle que définie",
+            "score": 5.0,
+            "niveaux": "N1"
+        },
+        {
+            "question": "Une grille de salaire interne est en place tient compte de la différence entre les différentes catégories socio-professionnelle et de l'ancienneté",
+            "score": 5.0,
+            "niveaux": "N2"
+        },
+        {
+            "question": "Existence d’un système de rétribution",
+            "score": 5.0,
+            "niveaux": "N2"
+        },
+        {
+            "question": "Des enquêtes de satisfaction internes abordent la question de la rémunération, l'entreprise tient compte de ses retours afin d'ajuster sa politique de rémunération",
+            "score": 5.0,
+            "niveaux": "N2"
+        },
+        {
+            "question": "La grille de salaire de l’entreprise est respectueuse de l’équité interne et externe",
+            "score": 5.0,
+            "niveaux": "N3"
+        },
+        {
+            "question": "Une politique de rémunération fixe et variable est en place et est conforme",
+            "score": 5.0,
+            "niveaux": "N3"
+        },
+        {
+            "question": "Le système de rémunération interne est construit selon une approche participative avec des représentant de toutes les parties prenantes internes",
+            "score": 5.0,
+            "niveaux": "N3"
+        },
+        {
+            "question": "Des enquêtes de satisfaction interne sur la politique de rémunération sont en place afin de mesurer leur satisfaction",
+            "score": 5.0,
+            "niveaux": "N4"
+        },
+        {
+            "question": "En cas de non-conformité des résultats de l’enquête un plan d’action est bien établi",
+            "score": 5.0,
+            "niveaux": "N4"
+        },
+        {
+            "question": "Une grille d’avantage sociaux est en place et respecte le principe de l’équité",
+            "score": 5.0,
+            "niveaux": "N4"
+        },
+        {
+            "question": "L'entreprise veille à ce que ses prestataires ( société d'intérim) respectent les normes conventionnelles en matière de rémunération et s'assure que les écarts de salaires ne sont pas préjudiciables aux intérimaires et ne dépasse pas 10%  ",
+            "score": 5.0,
+            "niveaux": "N4"
+        },
+        {
+            "question": "Tous les salariés ont reçu au moins une action de montée en compétence par an",
+            "score": 5.0,
+            "niveaux": "N1"
+        },
+        {
+            "question": "Des formations initiales sont prévues afin de garantir un minimum de maîtrise du métier par chaque collaborateur dans son poste de travail.",
+            "score": 5.0,
+            "niveaux": "N1"
+        },
+        {
+            "question": "Le niveau de maîtrise des compétences est mesuré en post formation",
+            "score": 5.0,
+            "niveaux": "N1"
+        },
+        {
+            "question": "Des plans de développement de compétence sont définis et déployés pour les collaborateurs en besoin de montée en compétence",
+            "score": 5.0,
+            "niveaux": "N2"
+        },
+        {
+            "question": "Un dispositif d'identification des besoins en formation est en place ",
+            "score": 5.0,
+            "niveaux": "N2"
+        },
+        {
+            "question": "Les salariés sont questionnés sur leur besoin en formation",
+            "score": 5.0,
+            "niveaux": "N2"
+        },
+        {
+            "question": "Des plans de développement de compétence sont définis et déployés pour tous les salariés et sont intégré dans un plan de développement de carrière",
+            "score": 5.0,
+            "niveaux": "N3"
+        },
+        {
+            "question": "Les plans de développement de compétence sont annuellement évalués et revisités",
+            "score": 5.0,
+            "niveaux": "N3"
+        },
+        {
+            "question": "L’entreprise dispose d’une politique de gestion des potentiels et des talents ",
+            "score": 5.0,
+            "niveaux": "N4"
+        },
+        {
+            "question": "Les plans de développement des compétences font l’objet d’enquête de satisfaction interne dont les résultats sont systématiquement suivis de plan d’ajustement",
+            "score": 5.0,
+            "niveaux": "N4"
+        },
+        {
+            "question": "L’entreprise propose des formations innovantes, à la carte et en cohérence avec la stratégie RSE de l'entreprise",
+            "score": 5.0,
+            "niveaux": "N4"
+        },
+        {
+            "question": "L'entreprise respecte la règlementation en vigueur au sujet de la diversité et de l’inclusion exemple : égalité de la rémunération, inclusion des personnes en situations d’handicape ",
+            "score": 5.0,
+            "niveaux": "N1"
+        },
+        {
+            "question": "L’entreprise justifie de demandes de dérogation lorsqu’elle n’est pas en mesure d’intégrer le % de personnes en situation d’handicape tel que stipulé par la loi ( 2% pour les entreprises de plus de 100 salarié et 1% pour les entreprises de moins de 100 salariés )",
+            "score": 5.0,
+            "niveaux": "N1"
+        },
+        {
+            "question": "Les indicateurs de la diversité et de l'inclusion sont intégrés dans le bilan social",
+            "score": 5.0,
+            "niveaux": "N2"
+        },
+        {
+            "question": "Les objectifs d’inclusion sont fixés, suivis et atteints",
+            "score": 5.0,
+            "niveaux": "N2"
+        },
+        {
+            "question": "Les acteurs agissant sur la politique de la diversité et de l'inclusion sont formés aux outils et démarche de mise en œuvre",
+            "score": 5.0,
+            "niveaux": "N2"
+        },
+        {
+            "question": "L’entreprise investit dans des installations et espaces adaptés aux personnes à mobilités réduites et besoins spécifiques",
+            "score": 5.0,
+            "niveaux": "N2"
+        },
+        {
+            "question": "Les principes de l'égalité des chances, de la diversité et de l'inclusion sont intégrés dans le code éthique et ou charte éthique",
+            "score": 5.0,
+            "niveaux": "N2"
+        },
+        {
+            "question": "La politique de la diversité et de l'inclusion est bien formalisée",
+            "score": 5.0,
+            "niveaux": "N3"
+        },
+        {
+            "question": "La communication interne, la formation et sensibilisation des salariés sont établis",
+            "score": 5.0,
+            "niveaux": "N3"
+        },
+        {
+            "question": "Les aspects de la diversité et de l'inclusion sont pris en compte dans les processus de gestion RH",
+            "score": 5.0,
+            "niveaux": "N3"
+        },
+        {
+            "question": "Existence d’un système d’évaluation de la diversité et de l'inclusion avec des plans d'amélioration des actions",
+            "score": 5.0,
+            "niveaux": "N3"
+        },
+        {
+            "question": "Un bilan annuel des actions de la diversité et de l'inclusion est établi et communiqué",
+            "score": 5.0,
+            "niveaux": "N3"
+        },
+        {
+            "question": "Les parties prenantes internes sont impliqués dans le bon déploiement de la politique",
+            "score": 5.0,
+            "niveaux": "N3"
+        },
+        {
+            "question": "Existence d'une démarche Diversité et inclusion structurée et reconnue (Label ou certification)",
+            "score": 5.0,
+            "niveaux": "N4"
+        },
+        {
+            "question": "Intégration de la politique diversité et inclusion dans la stratégie de l'entreprise",
+            "score": 5.0,
+            "niveaux": "N4"
+        },
+        {
+            "question": "Prise en compte des indicateurs de la diversité dans tous les processus de gestion RH",
+            "score": 5.0,
+            "niveaux": "N4"
+        },
+        {
+            "question": "Communication externe et implication des parties prenantes externes à savoir client fournisseurs et communauté locale et institutions spécialisées dans des actions qui favorise le genre en la diversité",
+            "score": 10.0,
+            "niveaux": "N4"
+        },
+        {
+            "question": "Existence d'un système d'évaluation des risques à la diversité en interne et au niveau des parties prenantes externes concernées",
+            "score": 5.0,
+            "niveaux": "N4"
+        },
+        {
+            "question": "Existence d’un système d’évaluation des pratiques de la diversité avec un dispositif d’amélioration et d'innovation",
+            "score": 5.0,
+            "niveaux": "N4"
+        },
+        {
+            "question": "L’entreprise veille au respect des normes et règlementations en vigueur et se limite au droit d'exercice dans sa région",
+            "score": 5.0,
+            "niveaux": "N1"
+        },
+        {
+            "question": "L’entreprise adopte des pratiques conforment à la culture et tradition de la région ",
+            "score": 5.0,
+            "niveaux": "N1"
+        },
+        {
+            "question": "L'entreprise entreprend des actions de sensibilisation quant à son rôle dans le développement local et régional et communique sur les actions entreprises dans ce sens",
+            "score": 5.0,
+            "niveaux": "N2"
+        },
+        {
+            "question": "L’entreprise adopte les outils de production aux besoins locaux et ce dans la mesure du possible ",
+            "score": 5.0,
+            "niveaux": "N2"
+        },
+        {
+            "question": "L'entreprise favorise par ses actions la création de richesse chez les communautés locales exemple : choix de fournisseurs locaux ",
+            "score": 10.0,
+            "niveaux": "N2"
+        },
+        {
+            "question": "L’entreprise engage des actions avec les communautés locales en favorisant les relations gagnant-gagnant exemples : convention avec les institutions locales, stages, journées portes ouvertes ",
+            "score": 10.0,
+            "niveaux": "N3"
+        },
+        {
+            "question": "L’entreprise implique ses salariés dans des actions de bénévolat",
+            "score": 5.0,
+            "niveaux": "N3"
+        },
+        {
+            "question": "L'entreprise met en place un dispositif pour mesurer son ancrage local et son impact (enquête interne et externe)",
+            "score": 5.0,
+            "niveaux": "N3"
+        },
+        {
+            "question": "L’entreprise investit dans des projets qui favorise le développement local en impliquant les acteurs locaux , exemple projet R&D ",
+            "score": 10.0,
+            "niveaux": "N4"
+        },
+        {
+            "question": "L'entreprise respecte la règlementation en vigueur en matière de dialogue social à savoir l’existence d’un CCE pour les entreprises de plus de 40 salarié pour celle qui en ont moins disponibilité des PV de réunion avec les salariés de l’entreprise ",
+            "score": 5.0,
+            "niveaux": "N1"
+        },
+        {
+            "question": "Les partenaires sociaux sont fortement impliqués dans les décisions et ont tendance à imposer leur avis ",
+            "score": 5.0,
+            "niveaux": "N1"
+        },
+        {
+            "question": "Les décisions touchant le volet social sont la résultante de négociation collective avec les partenaires sociaux avec vers la fin une tendance au compromis ",
+            "score": 5.0,
+            "niveaux": "N2"
+        },
+        {
+            "question": "Les délégués du personnel sont considérés comme de vrais partenaires et contribuent à l’élaboration de solutions pertinentes même sur des volets opérationnels ce qui a un impact positif sur la performance ",
+            "score": 5.0,
+            "niveaux": "N3"
+        },
+        {
+            "question": "Les partenaires sociaux sont parties prenantes à toutes initiative sociale ou territoriale et impliqués dans le déploiement de tout projet stratégique de l’entreprise et se positionnent en ambassadeurs.",
+            "score": 5.0,
+            "niveaux": "N4"
+        },
+        {
+            "question": "Les parties prenantes au dialogue social et aboutit à instaurer un climat social sain et un cadre d'action Co responsabilisant : absence de crise sociale",
+            "score": 5.0,
+            "niveaux": "N4"
+        }
+    ],
+    "Environnement": [
+        {
+            "question": "L’étape de planification du projet est validée à la suite d’un état des lieux avec la définition d’un plan d’action priorisé, l’identification des ressources à mettre à disposition et la désignation d’un chef de projet…",
+            "score": 5.0,
+            "niveaux": "N1"
+        },
+        {
+            "question": "La phase d’organisation est validée avec :  la mise à disposition des ressources faite, plan d’action en cours de réalisation : collecte des données faite de façon complète et fiable ",
+            "score": 5.0,
+            "niveaux": "N2"
+        },
+        {
+            "question": "Les salariés sont sensibilisés aux questions climatiques et émissions de C02",
+            "score": 5.0,
+            "niveaux": "N2"
+        },
+        {
+            "question": "La mise en œuvre effective du plan d’action est en place : Calcul du bilan ou empreinte carbone effectué, quantification validée",
+            "score": 5.0,
+            "niveaux": "N3"
+        },
+        {
+            "question": "Des objectifs de réduction des émissions définis et communiqués",
+            "score": 5.0,
+            "niveaux": "N3"
+        },
+        {
+            "question": "La phase d’évaluation et de contrôle est en place avec : l’exploitation des résultats et des avantages pour la consolidation et l'amélioration organisationnelle et opérationnelle",
+            "score": 5.0,
+            "niveaux": "N4"
+        },
+        {
+            "question": "L'entreprise déploie son plan de transition climat en cohérence avec sa stratégie de décarbonations : stratégie de décarbonations déployée à tous les niveaux de l'organisation",
+            "score": 5.0,
+            "niveaux": "N4"
+        },
+        {
+            "question": "Les objectifs de décarbonations validés par tierce partie (Ex, SBTI)",
+            "score": 5.0,
+            "niveaux": "N4"
+        },
+        {
+            "question": "La phase de planification du projet est validée à la suite d’un état des lieux avec :  la définition d’un plan d’action, ressources mises à disposition, rapport d’audit disponible…",
+            "score": 5.0,
+            "niveaux": "N1"
+        },
+        {
+            "question": "La phase d’organisation est clôturée : la mise à disposition des ressources faite, plan d’action en cours de réalisation avec un système de monitoring de l'énergie mis en place : collecte des données faite de façon complète et fiable",
+            "score": 5.0,
+            "niveaux": "N2"
+        },
+        {
+            "question": "Maîtrise opérationnelle démontrée par le personnel encadrant",
+            "score": 5.0,
+            "niveaux": "N2"
+        },
+        {
+            "question": "L'entreprise entreprend des actions de sensibilisation des salariés au sujet de la consommation énergétique ",
+            "score": 5.0,
+            "niveaux": "N2"
+        },
+        {
+            "question": "La phase de mise en œuvre effective du plan d'action est en cours de réalisation (avancement entre 50 et à 80%) et les Indicateurs d’efficacité énergétique sont maîtrisés et bien pilotés",
+            "score": 5.0,
+            "niveaux": "N3"
+        },
+        {
+            "question": "L'entreprise a défini un code de conduite en matière d'efficacité énergétique et communique dessus avec ses parties prenantes internes",
+            "score": 5.0,
+            "niveaux": "N3"
+        },
+        {
+            "question": "L'entreprise a mis en place une stratégie d'amélioration continue de ses actions d'efficacité énergétique afin d'atteindre les objectifs préalablement fixés : des audits énergétiques sont fréquemment réalisés avec définition de plan d’ajustement",
+            "score": 5.0,
+            "niveaux": "N3"
+        },
+        {
+            "question": "Certification 50001 obtenue ",
+            "score": 5.0,
+            "niveaux": "N4"
+        },
+        {
+            "question": "L'entreprise entreprend des actions de communication à l'externe afin de sensibiliser ses parties prenantes externes à l'importance de l'économie d’énergie et les inciter à aller dans une démarche d'efficacité énergétique et ou adopter des comportements responsables.",
+            "score": 5.0,
+            "niveaux": "N4"
+        },
+        {
+            "question": "La planification du projet est validée avec :                                                                                             L'identification des aspects environnementaux effectuée et leur significativité est évaluée  \nL'établissement d'un plan d'action pour la maîtrise des aspects environnementaux. \nLa mise à disposition des ressources (humaines et matérielles) nécessaires au projet validé et initiée",
+            "score": 5.0,
+            "niveaux": "N1"
+        },
+        {
+            "question": "Les actions liées aux aspects environnementaux identifiées sont réalisées y compris l’investissement dans des technologies respectueuse de l’environnement",
+            "score": 5.0,
+            "niveaux": "N2"
+        },
+        {
+            "question": "Les acteurs internes en charge de la mise en œuvre des actions sont formés aux fondamentaux de la maîtrise opérationnelle environnementale",
+            "score": 5.0,
+            "niveaux": "N2"
+        },
+        {
+            "question": "Suivi des performances lancées avec élaboration et mise en œuvre des actions : L'entreprise a défini des indicateurs de durabilité environnementale et implique ses collaborateurs dans leur atteinte",
+            "score": 5.0,
+            "niveaux": "N2"
+        },
+        {
+            "question": "L'entreprise entreprend des actions de sensibilisation des salariés au sujet du respect de l'environnement et des risques liés à la pollution  ",
+            "score": 5.0,
+            "niveaux": "N2"
+        },
+        {
+            "question": "La phase de mise en œuvre et déploiement est confirmée et est effective : Certification 14001 récemment obtenue",
+            "score": 5.0,
+            "niveaux": "N3"
+        },
+        {
+            "question": "L'entreprise a mis en place une stratégie d'amélioration continue de ses actions de durabilité environnementale : un système de surveillance est mis en place à cet effet ",
+            "score": 5.0,
+            "niveaux": "N3"
+        },
+        {
+            "question": "La phase suivi , contrôle et évaluation est effectivement en place afin de s'assurer de la stabilité du système et sa performance.",
+            "score": 5.0,
+            "niveaux": "N4"
+        },
+        {
+            "question": "L'entreprise structure une stratégie et une politique de gestion de l'environnement qui lui permet de se positionner comme leader ",
+            "score": 5.0,
+            "niveaux": "N4"
+        },
+        {
+            "question": "L'entreprise a défini une politique et ou code de conduite en matière de respect de l'environnement et communique dessus avec ses parties prenantes internes et externes",
+            "score": 5.0,
+            "niveaux": "N4"
+        },
+        {
+            "question": "L'entreprise investit dans des actions de sensibilisation de ses parties prenantes externes (communauté locale, fournisseurs et client) pour les engager à être respectueux de l'environnement et adopter des comportements responsables",
+            "score": 5.0,
+            "niveaux": "N4"
+        },
+        {
+            "question": "La phase de planification est validée avec :                                                                                                   Des processus de conception et de développement orientés vers l'économie circulaire établis, mise à disposition des ressources (humaines et matérielles) , disponibilité de la cartographie des parties prenantes aux processus de l'économie circulaire.",
+            "score": 5.0,
+            "niveaux": "N1"
+        },
+        {
+            "question": "Les partenaires à impliquer dans le processus sont informés et ont validé le processus.",
+            "score": 5.0,
+            "niveaux": "N1"
+        },
+        {
+            "question": "La phase d'organisation est validée et confirmée :  L'entreprise formalise son engagement vis-à-vis de l'environnement et ce à travers une politique d'économie circulaire que ce soit au niveau de sa politique d’achat, de production ou de valorisation",
+            "score": 5.0,
+            "niveaux": "N2"
+        },
+        {
+            "question": "L'entreprise sensibilise ses parties prenantes internes sur l'importance de l'économie circulaire et les encourage à utiliser les produits recyclés",
+            "score": 5.0,
+            "niveaux": "N2"
+        },
+        {
+            "question": "L’entreprise privilégie la consommation et achat de produits recyclé en favorisant les conventions et transactions avec des fournisseurs adeptes de l'économie circulaire ou qui fournissent des produits recyclés",
+            "score": 10.0,
+            "niveaux": "N2"
+        },
+        {
+            "question": "La phase de mise en œuvre effective est en place avec une Tendance positive pour l’utilisation des ressources internes à des fins d'économie circulaire",
+            "score": 5.0,
+            "niveaux": "N3"
+        },
+        {
+            "question": "L'entreprise encourage ses parties prenantes externes à utiliser des produits issus de l'économie circulaire en faisant la promotion des processus ou produits issue de ce principe (offre des produits recyclés, utilise dans ses transactions des produits recyclés ...)",
+            "score": 10.0,
+            "niveaux": "N3"
+        },
+        {
+            "question": "Des innovations et des projets sont mis en œuvre intégrant l'économie circulaire ",
+            "score": 5.0,
+            "niveaux": "N3"
+        },
+        {
+            "question": "L'entreprise intègre systématiquement dans ses process de conception, développement et production les principes de l'éco conception, basé par exemple sur la méthodologie de l'analyse du cycle de vie (ACV)",
+            "score": 5.0,
+            "niveaux": "N4"
+        },
+        {
+            "question": "L'entreprise adopte des pratiques de production, sur ses sites et avec ses territoires d'implantation, qui s'inspirent des principes de l'économie circulaire en vue de minimiser les impacts sur l'environnement",
+            "score": 10.0,
+            "niveaux": "N4"
+        },
+        {
+            "question": "La phase de suivi, contrôle et évaluation est en place avec une surveillance de l'organisation bel et bien effectuée (Inspections, audits, revues d’activités,)",
+            "score": 5.0,
+            "niveaux": "N4"
+        },
+        {
+            "question": "La phase de planification est bien validée : les enjeux de la biodiversité au niveau du territoire identifiés ainsi que l’impact de l’activité, produits et service sur la biodiversité, cartographie des parties prenantes établie ainsi que le plan d'action pour la préservation de la biodiversité",
+            "score": 5.0,
+            "niveaux": "N1"
+        },
+        {
+            "question": "La phase de mise en œuvre est entamée : sensibilisation des collaborateurs à l'importance de la biodiversité et l'impact de leur pratiques non conformes sur la nature, formation des parties prenantes au plan d'action ",
+            "score": 5.0,
+            "niveaux": "N2"
+        },
+        {
+            "question": "L'entreprise met en œuvre un plan d'action en adéquation avec les plans nationaux établis",
+            "score": 5.0,
+            "niveaux": "N3"
+        },
+        {
+            "question": "L'entreprise implique ses parties prenantes externes et internes dans ses engagements vis-à-vis de la nature et respect de la biodiversité en communiquant sur ses actions et en les invitant à prendre part aux actions terrains",
+            "score": 5.0,
+            "niveaux": "N3"
+        },
+        {
+            "question": "L'entreprise s'engage dans des partenariats avec les acteurs du territoire impliqués dans des sujets en lien avec la biodiversité",
+            "score": 10.0,
+            "niveaux": "N3"
+        },
+        {
+            "question": "L'entreprise participe à des initiatives nationales et internationales ayant pour objectif la protection de la biodiversité",
+            "score": 5.0,
+            "niveaux": "N3"
+        },
+        {
+            "question": "L'entreprise met en place un dispositif d'évaluation de l'efficacité de ses actions sur la biodiversité",
+            "score": 5.0,
+            "niveaux": "N4"
+        },
+        {
+            "question": "L'entreprise investit dans actions de recherche avec des structures spécialisées afin d'encourager le respect de la biodiversité et limiter l'impact des risques : elle se veut leader en matière d'action de restauration de l'écosystème et préservation de la biodiversité ",
+            "score": 5.0,
+            "niveaux": "N4"
+        }
+    ]
+}

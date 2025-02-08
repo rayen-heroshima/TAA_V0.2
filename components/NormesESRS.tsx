@@ -2,27 +2,13 @@
 
 import { TextGenerateEffect } from "@/components/ui/text-generate-effect";
 import { esgData } from "@/lib/data";
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import { HoverEffect } from "./ui/card-hover-effect";
-import { usePathname } from "next/navigation";
+
 import Image from "next/image";
 
 export default function NormesESRS() {
-  const pathname = usePathname();
-
-  useEffect(() => {
-    const scrollToNewSection = () => {
-      const newSection = document.getElementById("ESRS");
-      if (newSection) {
-        newSection.scrollIntoView({ behavior: "smooth", block: "start" });
-      }
-    };
-    const timeoutId = setTimeout(scrollToNewSection, 100);
-
-    return () => {
-      clearTimeout(timeoutId);
-    };
-  }, [pathname]);
+  
 
   const activeParentCategory = esgData[1];
 
@@ -34,7 +20,7 @@ export default function NormesESRS() {
     <div className="flex flex-col items-center justify-center px-6 md:px-10 py-8 bg-white transition-all duration-500 ease-in-out">
       <h2
         className="text-3xl font-semibold text-gray-800 mb-8 text-center transition-transform transform hover:scale-105"
-        id="ESRS"
+        
       >
         Normes européennes de reporting ESG
       </h2>
