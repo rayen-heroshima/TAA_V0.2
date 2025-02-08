@@ -15,10 +15,10 @@ const IntroductionPage = () => {
         transition={{ duration: 0.6 }}
       >
         <h1 className="text-3xl font-bold text-red-600 mb-4">
-          Formulaire de Maturité d'Entreprise
+          Formulaire de Maturité d&apos;Entreprise
         </h1>
         <p className="text-gray-700 text-lg">
-          Ce formulaire permet d'évaluer la maturité d'une entreprise en matière de 
+          Ce formulaire permet d&apos;évaluer la maturité d&apos;une entreprise en matière de 
           <strong> Gouvernance, Social et Environnement</strong>. 
           Il est basé sur plusieurs critères RSE (Responsabilité Sociétale des Entreprises).
         </p>
